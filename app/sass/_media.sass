@@ -1,0 +1,959 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1320px)
+  .nav-menu
+    .nav-link
+      padding: 10px
+
+@media only screen and (max-width : 1280px)
+  .form-search
+    width: 404px
+
+  main
+    margin: 30px 0 0 0
+
+  .nav-tabs
+    .nav-item
+      .nav-link
+        padding: 10px 15px
+        p
+          font-size: 14px
+          line-height: 20px
+        span
+          font-size: 14px
+
+
+@media only screen and (max-width : 1260px)
+  .main-slider-max
+    width: 643px
+    .btn-details
+      right: 25%
+      bottom: 22%
+
+  main
+    .container
+      justify-content: space-around
+
+
+  .main-slider-min
+    width: 268px
+    .main-slide__box
+      max-height: 98px
+      overflow: hidden
+
+  .main-slider-min__wrapper
+    .box-navigation
+      margin: 0 0 0 10px
+
+
+@media only screen and (max-width : 1200px)
+  .calendar-box
+    float: none
+    margin: 0 auto
+    width: 216px
+    height: 319px
+    padding: 30px
+    .date
+      font-size: 14px
+    .font-max
+      font-size: 25px
+      line-height: 24px
+    .name
+      min-height: auto
+      font-size: 16px
+
+  .category-box
+    width: 130px
+    height: 156px
+    .name
+      font-size: 14px
+      line-height: 17px
+
+  .category-box1
+    .icon
+      width: 63px
+      height: 63px
+
+  .category-box2
+    .icon
+      width: 47px
+      height: 47px
+
+  .category-box3
+    .icon
+      width: 21px
+      height: 57px
+
+  .category-box4
+    .icon
+      width: 65px
+      height: 73px
+
+  .category-box5
+    .icon
+      width: 75px
+      height: 47px
+
+  .category-box6
+    .icon
+      width: 60px
+      height: 60px
+
+  .news-box__min
+    .image
+      width: 215px
+      min-width: 215px
+    .text
+      .description
+        display: none
+    .title
+      margin: 0 0 20px
+
+  .partners-box
+    width: 130px
+    height: 131px
+    padding: 20px 15px
+
+  .menu-box
+    h3
+      font-size: 14px
+      line-height: 25px
+      min-height: 50px
+    .nav
+      .nav-item
+        a
+          font-size: 13px
+          line-height: 14px
+
+
+  .footer-box
+    width: 164px
+    .footer-nav
+      li
+        a
+          font-size: 14px
+          line-height: 25px
+    p, span
+      font-size: 14px
+      line-height: 20px
+
+  .footer-bottom
+    .container
+      .list-social
+        width: 100%
+      .box-telephone
+        a
+          font-size: 14px
+          line-height: 20px
+      .btn-shem
+        width: 100%
+        height: 40px
+        font-size: 14px
+
+  .copyright
+    max-width: 570px
+
+
+
+@media only screen and (max-width : 1080px)
+  .header-top .container .btn-old
+    margin: 0 auto
+
+  .nav-menu
+    flex-wrap: nowrap
+    align-items: stretch
+    padding: 0 0 17px
+    > .nav-item
+        text-align: center
+        > .nav-link
+            font-size: 13px
+            height: 100%
+            padding: 0 6px 5px
+            .icon
+              margin: 0 0 10px
+        &:first-child
+          .nav-link
+            padding-left: 0
+            border-left: none
+        &:last-child
+          .nav-link
+            padding-right: 0
+            border-right: none
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+  .nav-tabs
+    margin: 30px 0
+    justify-content: space-between
+    .nav-item
+      flex: 1
+      .nav-link
+        text-align: center
+
+
+
+
+@media only screen and (max-width : 965px)
+  header
+    .list-social
+      display: none
+
+  .contacts-wrapper
+    margin: 0
+
+  .header-top
+    .container
+      .links
+        &:first-child
+          padding: 0 23px 0 0
+          margin: 0 23px 0 0
+        &:nth-child(2)
+          padding-right: 0
+
+  .form-search
+    width: 137px
+    &:before, &:after
+      display: none
+    .input-group-append
+      display: none
+    label
+      input
+        padding: 0 10px 0 50px
+    .icon
+      left: 10px
+
+  .nav-menu
+    .nav-item
+      .nav-link
+        font-size: 12px
+        line-height: 13px
+
+  main
+    .container
+      flex-direction: column
+      align-items: center
+
+  .main-slider-max__wrapper, .main-slider-min__wrapper, .main-slider-max, .main-slider-min
+    width: 100%
+    max-width: none
+
+  .main-slider-max
+    .main-slide__box
+      img
+        width: 100%
+
+  .main-slider-min__wrapper
+    margin: 30px 0 0
+    flex-direction: column
+    align-items: center
+    .main-slide__box
+      margin: 0 auto
+      width: 217px
+      height: auto
+    .box-navigation
+      margin: 20px 0 0
+      align-items: center
+      flex-direction: row
+      .slick-prev
+        margin: 0 20px 0 0
+        &:before
+          top: 0
+          transform: rotate(0)
+      .slick-next
+        margin: 0 0 0 20px
+        &:after
+          display: none
+        &:before
+          transform: rotate(0)
+          top: 0
+
+  .calendar-events
+    .btn-all
+      top: 0
+      right: 15px
+      left: auto
+      bottom: auto
+      height: 40px
+
+  .product-element-view3
+    .image
+      height: auto
+      img
+        height: auto
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 860px)
+  .news-box__min
+    .image
+      width: 145px
+      min-width: 145px
+      height: 99px
+      margin: 0 0 0 30px
+
+  .footer-top
+    display: none
+
+  .footer-box
+    width: 145px
+
+  .copyright
+    max-width: 514px
+
+  .product-element__max
+    flex-direction: column
+    .image
+      width: 100%
+      margin: 0 0 20px
+      min-width: auto
+      height: auto
+
+  .category-box
+    width: 120px
+    height: 130px
+
+@media only screen and (max-width : 790px)
+  .footer-info
+    max-width: 514px
+    flex-direction: column
+    order: 2
+    justify-content: flex-start
+    align-items: flex-start
+    margin: 29px 0 0 0
+
+  .copyright
+    max-width: none
+    margin: 0 0 10px
+
+  .footer-box
+    &:first-child
+      order: 1
+      width: 27%
+      margin: 29px 0 0 0
+
+  .footer-bottom
+    .container
+      .btn-shem
+        border-color: #BDAFAD
+        .icon
+          display: none
+
+  .dropdown-menu
+    .main-menu-dropdown-menu__right
+      width: 150px
+
+@media only screen and (max-width : 768px)
+  h1
+    font-size: 30px
+
+  h2
+    font-size: 25px
+
+  .calendar-box
+    width: 226px
+
+  .calendar-slider_navigation
+    margin: 30px 0 0
+
+
+  .cat-box
+    width: 120px
+    height: 130px
+    flex: inherit
+    padding: 0
+
+  .category-box
+    padding: 20px
+    .name
+      font-size: 12px
+      line-height: 14px
+
+  .category-box1
+    .icon
+      width: 52px
+      height: 52px
+
+  .category-box2
+    .icon
+      width: 40px
+      height: 40px
+
+  .category-box3
+    .icon
+      width: 17px
+      height: 47px
+
+  .category-box4
+    .icon
+      width: 54px
+      height: 60px
+
+  .category-box5
+    .icon
+      width: 62px
+      height: 40px
+
+  .category-box6
+    .icon
+      width: 40px
+      height: 40px
+
+  .news
+    h2
+      margin: 0 0 34px
+
+  .partners
+    padding: 57px 0 60px
+
+  .product-menu
+    display: flex
+    align-items: center
+    justify-content: space-between
+    position: relative
+    width: 100%
+    margin: 30px 0 0
+    .btn-next
+      width: 179px
+      margin: 0
+    .navbar-light
+      .navbar-toggler
+        background: #F3F3F5
+        padding: 0
+        width: 198px
+        height: 40px
+        border: none
+        display: flex
+        align-items: center
+        justify-content: center
+      .navbar-toggler-icon
+        background: transparent
+        width: 16px
+        height: 14px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+        span
+          width: 16px
+          height: 2px
+          border-radius: 50px
+          background: #000
+          display: inline-block
+    .navbar-collapse
+      position: absolute
+      top: 40px
+      right: 0
+      z-index: 5
+      max-width: 285px
+      .product-menu__nav
+        background: #fff
+
+
+  .navbar-brand
+    font-size: 16px
+    font-family: $default-font
+    margin: 0 0 0 14px
+    padding: 0
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 750px)
+  .footer-box
+    &:first-child
+      width: 145px
+
+  .category-box
+    width: 45%
+    height: 50px
+    padding: 0 15px
+    margin: 0 0 20px
+    justify-content: center
+    align-items: center
+    .icon
+      display: none
+    .name
+      min-height: auto
+      margin: 0
+      font-size: 14px
+      line-height: 13px
+
+@media only screen and (max-width : 695px)
+  .header-top
+    .container
+      .links
+        font-size: 12px
+
+  .logo
+    width: 230px
+    svg
+      width: 100%
+      height: 100%
+
+  .main-menu
+    display: none
+    position: fixed
+    right: 0
+    top: 0
+    background: #ffffff
+    z-index: 20
+    height: 100%
+    overflow: auto
+    .nav-menu
+      flex-direction: column
+      padding: 20px
+      .nav-item
+        .nav-link
+          padding: 0
+          margin: 0 auto 20px
+          border: none
+        .dropdown-menu
+          position: relative
+          left: 0
+          top: 0
+          box-shadow: none
+          padding: 0
+          .main-menu-dropdown-menu__left
+            width: 140px
+          .main-menu-dropdown-menu__right
+            width: 100px
+            .btn-brown-border
+              margin: 20px auto 0
+
+  .btn-mobile-menu
+    display: flex
+
+  .header-bottom
+    .container
+      align-items: center
+
+  .cabinet-wrapper
+    height: 60px
+
+  .footer-info
+    width: 400px
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 660px)
+  .header-top
+    .container
+      .btn-old
+        display: none
+      .links:nth-child(2)
+        margin: 0 auto 0 0
+
+  .main-slider-max__wrapper
+    .box-arrow
+      padding: 10px 0
+
+  .nav-tabs
+    width: auto
+    .nav-item
+      display: none
+      &:first-child
+        display: flex
+      .nav-link.active
+        background: transparent
+        padding: 0
+
+        p
+          color: $accent2
+          font-size: 18px
+        .date
+          color: #666A7B
+          font-size: 18px
+
+
+@media only screen and (max-width : 620px)
+  .footer-bottom
+    padding: 17px 0 32px
+    .container
+      position: relative
+      padding: 0 20px 60px
+      .icon
+        margin: 0 13px 0 0
+      .btn-shem
+        position: absolute
+        left: 0
+        bottom: 0
+        width: 220px
+        height: 40px
+        right: 0
+        margin: 0 auto
+
+
+  .footer-info
+    order: -2
+    width: 100%
+    margin: 0 0 20px
+    max-width: none
+    line-height: 17px
+
+  .footer-box
+    width: 50%
+    display: flex
+    align-items: flex-start
+    margin: 0 0 10px
+    &:first-child
+      margin: 0
+
+
+  .footer-box.box-social
+    display: flex
+    flex-direction: column
+    order: -1
+    margin: 0 0 20px
+    .list-social
+      order: 1
+      margin: 10px 0 0 0
+      justify-content: flex-start
+      li
+        a
+          margin: 0 10px 0 0
+
+  .developer
+    display: none
+
+@media only screen and (max-width : 600px)
+  .cabinet-wrapper
+    height: auto
+    .btn
+      width: auto
+      height: auto
+      border: none
+      padding: 0
+      margin: 0
+      .icon
+        width: 20px
+        height: 26px
+        margin: 0
+        svg
+          width: 100%
+          height: 100%
+      .text
+        display: none
+
+
+  .form-search
+    border: none
+    position: relative
+    width: auto
+    display: flex
+    align-items: center
+    justify-content: center
+    .input-group
+      display: none
+      position: absolute
+      right: 40px
+      bottom: -5px
+      border: 1px solid #797A80
+        radius: 5px
+      width: 280px
+      input
+        padding: 0 20px
+        height: 40px
+        width: 100%
+        background: #fff
+    .icon
+      position: relative
+      left: 0
+      top: 0
+      transform: translate(0)
+
+  .form-control, label
+    transition: initial
+
+  .main-slider-max
+    .btn-details
+      right: 22%
+      bottom: 20%
+
+  .calendar-events
+    .btn-all
+      bottom: 0
+      left: 0
+      right: 0
+      top: auto
+      position: relative
+      margin: 20px auto 0
+
+  .calendar-slider_navigation
+    position: absolute
+    right: 20px
+    top: 60px
+    width: auto
+    margin: 0
+    .slick-dots
+      display: none
+    .slick-prev
+      position: relative
+      &:after
+        content: ''
+        position: absolute
+        right: -20px
+        top: 0
+        width: 1px
+        height: 100%
+        background: #E4E4E4
+
+  .nav-tabs
+    margin: 24px 0 17px
+
+  .product-element-view5
+    .image
+      width: 150px
+      height: auto
+      min-height: auto
+      margin: 0 20px 0 0
+      min-width: 150px
+      img
+        height: auto
+
+@media only screen and (max-width : 540px)
+  header
+    box-shadow: none
+
+  .main-slider-max
+    .btn-details
+      width: 48px
+      height: 21px
+      font-size: 5px
+      right: 30%
+      padding: 0
+
+  .main-slider-max__wrapper
+    flex-direction: column
+    display: flex
+    width: 100%
+    .box-arrow
+      margin: 20px 0 0 0
+      position: relative
+      right: 0
+      bottom: 0
+      padding: 0
+      background: transparent
+      border-radius: 0
+      order: 1
+      .slick-arrow
+        display: none
+      .slick-dots
+        margin: 0
+
+  .header-top
+    display: none
+
+  .header-bottom
+    padding: 20px 0 10px
+
+  .cabinet-wrapper .dropdown-cabinet
+    min-width: 290px
+
+
+  .calendar-events
+    margin: 30px 0
+
+  .news
+    margin: 30px 0
+
+  .product-element
+    .image
+      height: auto
+      img
+        height: auto
+        width: 100%
+    .name
+      font-size: 18px
+      margin-top: 0
+
+
+@media only screen and (max-width : 500px)
+  .calendar-box
+    width: 100%
+    height: 180px
+    padding: 20px
+    margin: 5px 0
+    box-sizing: border-box
+    .description
+      display: none
+    .image
+      width: 76px
+      height: 50px
+    .name
+      margin-bottom: 0
+
+
+  .calendar-box__image
+    border-radius: 5px
+    min-height: 150px
+    box-sizing: border-box
+    .image
+      width: 100%
+      height: auto
+      top: 50%
+      left: 50%
+      transform: translate(-50%,-50%)
+      border-radius: 5px
+      img
+        border-radius: 5px
+
+@media only screen and (max-width : 480px)
+  h1
+    font-size: 25px
+
+  h2
+    font-size: 20px
+
+  .main-slider-min__wrapper
+    display: none
+
+  .logo
+    width: 125px
+    height: 39px
+    background: url("../img/svg/logo-mobile.svg") no-repeat center
+      size: contain
+    svg
+      display: none
+
+  .calendar-events
+    .btn-all
+      width: 90%
+
+  .news-box__min.news-box
+    display: none
+    .image
+      display: none
+    &:first-child, &:nth-child(2)
+      display: flex
+
+  .news
+    .btn
+      width: 100%
+      height: 40px
+      padding: 0
+      font-size: 16px
+
+  .news-box__max
+    margin: 0 0 30px
+    padding: 30px 0
+    border-bottom: 1px solid #E4E4E4
+
+  .news-box
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+    width: 100%
+    .title
+      font-size: 18px
+    .text
+      flex-direction: column
+      display: flex
+    .description
+      display: none
+    .image
+      width: 100px
+      min-width: 100px
+      margin: 0 0 0 20px
+      order: 1
+
+  .partners
+    padding: 40px 0
+
+  .partners-box
+    width: 79px
+    height: 79px
+
+  .footer-box
+    width: 100%
+    &:first-child
+      display: none
+
+  .main-menu
+    .nav-menu
+      padding: 20px 0
+      .nav-item
+        .nav-link
+          margin: 0 auto 10px
+        .dropdown-menu
+          flex-direction: column
+          .main-menu-dropdown-menu__right
+            margin: 10px 0
+            width: 100%
+            max-width: 140px
+            .image
+              margin: 0
+
+  .product-menu
+    .btn-next
+      width: 72px
+      justify-content: center
+      align-items: center
+      .text
+        display: none
+      .icon
+        margin: 0 auto
+
+  .product-element
+    .image
+      max-height: 105px
+      img
+        height: 100%
+    .description
+      font-size: 14px
+      line-height: normal
+
+  .pagination-nav
+    margin: 20px 0 50px
+    .page-item
+      .page-link
+        padding: 9px 14px
+        margin: 0 5px 10px
+    .pagination
+      width: 100%
+      flex-wrap: wrap
+      justify-content: center
+
+  .product-element-view3, .product-element-view4, .product-element-view6
+    .image
+      max-height: none
+
+  .title
+    h1
+      font-size: 20px
+
+  .breadcrumb-nav
+    display: none
+
+  .product-element-view5
+    flex-direction: column
+    align-items: center
+    .image
+      width: 100%
+      min-width: auto
+      max-height: none
+      margin: 0 0 20px
+
+  .page-subsection
+    .title
+      display: none
+    .nav-item
+      .nav-link
+        padding: 10px 0
+        .icon
+          display: none
+
+  .subsection-nav
+    margin: 0 0 70px
+
+  .form-search
+    .input-group
+      right: -140%
+      bottom: -150%
+      z-index: 2
+
+@media only screen and (max-width : 340px)
+  .main-slider-max
+    .btn-details
+      right: 27%
